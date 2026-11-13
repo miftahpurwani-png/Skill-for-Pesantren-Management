@@ -1,0 +1,7 @@
+numpy-financial>=1.0.0
+rapidfuzz>=3.9.0
+datacompy>=1.0.0
+duckdb>=1.0.0
+polars>=1.0.0
+pyarrow>=17.0.0
+yfinance>=0.2.40
