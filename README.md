@@ -69,7 +69,7 @@ python -m pip install -r requirements-finance.txt
 ---
 
 ### 4. BAGIAN D: Tambahan Teknik Sipil & Arsitek
-Kebutuhan: Pembacaan file AutoCAD (DXF), Building Information Modeling (BIM - IFC), analisis geospasial (GIS), dan mekanika struktur.
+Kebutuhan: Pembacaan file AutoCAD (DXF), Building Information Modeling (BIM - IFC), analisis geospasial (GIS), mekanika struktur, dan evaluasi blueprint/rencana pembangunan (RAB/BoQ).
 
 ```powershell
 # Software GIS Pemetaan Lahan / Kontur (Opsional)
@@ -78,6 +78,9 @@ winget install --id OSGeo.QGIS -e --source winget
 # Pustaka Python Sipil & Arsitektur
 python -m pip install -r requirements-civil.txt
 ```
+
+* **Custom Skill**: Salin folder `skills/civil-architect-plan-analyst` ke folder Antigravity Anda di:
+  `C:\Users\<Username>\.gemini\config\skills\`
 
 ---
 
@@ -93,6 +96,8 @@ python -m pip install -r requirements-civil.txt
 └── skills/                       # Folder Custom Skills untuk Antigravity
     ├── academic-review-multilingual/
     │   └── SKILL.md
-    └── financial-audit-analyst/
+    ├── financial-audit-analyst/
+    │   └── SKILL.md
+    └── civil-architect-plan-analyst/
         └── SKILL.md
 ```
